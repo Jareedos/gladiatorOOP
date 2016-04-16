@@ -12,6 +12,9 @@
 		BF4E73A11CC196B200DE3811 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4E739F1CC196B200DE3811 /* Main.storyboard */; };
 		BF4E73A31CC196B200DE3811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4E73A21CC196B200DE3811 /* Assets.xcassets */; };
 		BF4E73A61CC196B200DE3811 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4E73A41CC196B200DE3811 /* LaunchScreen.storyboard */; };
+		BF4E73AE1CC1BBA000DE3811 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E73AD1CC1BBA000DE3811 /* player.swift */; };
+		BF4E73B01CC1EAB300DE3811 /* orc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E73AF1CC1EAB300DE3811 /* orc.swift */; };
+		BF4E73B21CC29BF000DE3811 /* knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E73B11CC29BF000DE3811 /* knight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		BF4E73A21CC196B200DE3811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF4E73A51CC196B200DE3811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF4E73A71CC196B200DE3811 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF4E73AD1CC1BBA000DE3811 /* player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
+		BF4E73AF1CC1EAB300DE3811 /* orc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = orc.swift; sourceTree = "<group>"; };
+		BF4E73B11CC29BF000DE3811 /* knight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				BF4E73A21CC196B200DE3811 /* Assets.xcassets */,
 				BF4E73A41CC196B200DE3811 /* LaunchScreen.storyboard */,
 				BF4E73A71CC196B200DE3811 /* Info.plist */,
+				BF4E73AD1CC1BBA000DE3811 /* player.swift */,
+				BF4E73AF1CC1EAB300DE3811 /* orc.swift */,
+				BF4E73B11CC29BF000DE3811 /* knight.swift */,
 			);
 			path = GladiatorOOP;
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4E73B21CC29BF000DE3811 /* knight.swift in Sources */,
+				BF4E73B01CC1EAB300DE3811 /* orc.swift in Sources */,
 				BF4E739E1CC196B200DE3811 /* ViewController.swift in Sources */,
+				BF4E73AE1CC1BBA000DE3811 /* player.swift in Sources */,
 				BF4E739C1CC196B200DE3811 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

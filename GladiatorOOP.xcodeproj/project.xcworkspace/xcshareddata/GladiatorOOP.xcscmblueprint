@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "062762205462EA0D67422CBA75020BA4AEEBD85C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D0C04B1B2A58587B0BBCB0A549E7CDFE42E87364" : 0,
+    "062762205462EA0D67422CBA75020BA4AEEBD85C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9026E9E3-6C84-4BB6-964E-6BEB3C223381",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D0C04B1B2A58587B0BBCB0A549E7CDFE42E87364" : "",
+    "062762205462EA0D67422CBA75020BA4AEEBD85C" : "GladiatorOOP\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GladiatorOOP",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GladiatorOOP.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Jareedos\/gladiatorOOP.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "062762205462EA0D67422CBA75020BA4AEEBD85C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Jareedos\/gladiatorOOP.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D0C04B1B2A58587B0BBCB0A549E7CDFE42E87364"
+    }
+  ]
+}
