@@ -29,6 +29,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="31"/>
                                 <state key="normal" title="Attack" backgroundImage="player1attackbtn"/>
+                                <connections>
+                                    <action selector="onOrcBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mz3-NE-dfm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KiT-pR-ElY">
                                 <rect key="frame" x="383" y="40" width="119" height="52"/>
@@ -38,6 +41,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="31"/>
                                 <state key="normal" title="Attack" backgroundImage="player2attackbtn"/>
+                                <connections>
+                                    <action selector="onKnightBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N8I-T9-7mf"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="g58-eJ-om0">
                                 <rect key="frame" x="0.0" y="518" width="600" height="82"/>
@@ -122,10 +128,19 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="gameTxtLbl" destination="w6V-gO-eun" id="4nE-bC-S3z"/>
+                        <outlet property="knightAttackBtn" destination="KiT-pR-ElY" id="N4o-Zd-yye"/>
+                        <outlet property="knightImg" destination="MlK-IW-285" id="n65-XU-aCd"/>
+                        <outlet property="orcAttackBtn" destination="Q8W-jX-FkV" id="Zua-1d-jw9"/>
+                        <outlet property="orcImg" destination="KQv-tl-sT8" id="Zgt-pW-dal"/>
+                        <outlet property="playAgainBtn" destination="fMc-en-BTy" id="axz-ot-TUd"/>
+                        <outlet property="winnersTxtLbl" destination="FMZ-EB-eqZ" id="tQR-Wn-JB2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133" y="275"/>
+            <point key="canvasLocation" x="-255" y="89"/>
         </scene>
     </scenes>
     <resources>

@@ -12,7 +12,7 @@ import Foundation
 class Player {
 
     private var _hp: Int = 0
-    private var _attackPwr: Int = 0
+//    private var _attackPwr: Int = 0
     private var _name: String = ""
     private var min = 10
     private var max = 20
@@ -24,15 +24,15 @@ class Player {
     
     }
     
-    var attackPwr: Int {
-        get {
-            return _attackPwr
-        }
-    }
+//    var attackPwr: Int {
+//        get {
+//            return _attackPwr
+//        }
+//    }
 
-    init ( startingHp: Int, startingAttckPwr: Int, name: String){
+    init ( startingHp: Int, name: String){
         self._hp = startingHp
-        self._attackPwr = startingAttckPwr
+//        self._attackPwr = startingAttckPwr
         self._name = name
     }
     

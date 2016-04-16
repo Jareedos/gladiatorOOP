@@ -10,8 +10,8 @@ import Foundation
 
 
 class Knight: Player {
-    convenience init(name: String, hp: Int, attackPwr: Int){
-        self.init(startingHp: hp, startingAttckPwr: attackPwr, name: name)
+    convenience init(name: String, hp: Int){
+        self.init(startingHp: hp,name: name)
     }
     
 }
