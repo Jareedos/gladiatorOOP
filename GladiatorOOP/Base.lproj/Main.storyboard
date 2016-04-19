@@ -93,6 +93,9 @@
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMc-en-BTy">
                                 <rect key="frame" x="212" y="199" width="176" height="121"/>
                                 <state key="normal" image="play_again_button"/>
+                                <connections>
+                                    <action selector="onPlayAgainBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L74-1s-LS9"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

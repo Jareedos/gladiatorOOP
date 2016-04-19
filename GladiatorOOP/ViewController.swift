@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var orcImg: UIImageView!
     
     @IBOutlet weak var knightImg: UIImageView!
-    
  
     @IBOutlet weak var gameTxtLbl: UILabel!
     
@@ -46,6 +45,17 @@ class ViewController: UIViewController {
         knightAttackBtn.hidden = true
         winnersTxtLbl.hidden = true
         playAgainBtn.hidden = false
+    }
+    
+    func gameReset() {
+        orcImg.hidden = false
+        knightImg.hidden = false
+        orcAttackBtn.hidden = false
+        knightAttackBtn.hidden = false
+        playAgainBtn.hidden = true
+        orc.hp = 100
+        knight.hp = 100
+        gameTxtLbl.text = "Press attack to start game!"
     }
     
     
@@ -85,6 +95,9 @@ class ViewController: UIViewController {
     }
     
 
+    @IBAction func onPlayAgainBtnPressed(sender: AnyObject) {
+        gameReset()
+    }
     
     
     override func viewDidLoad() {
