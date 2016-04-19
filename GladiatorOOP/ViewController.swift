@@ -50,25 +50,38 @@ class ViewController: UIViewController {
     
     
 
-    
+// repeating the same stuff for the buttons isnt DRY! need to refactor!
     @IBAction func onOrcBtnPressed(sender: AnyObject) {
         orcAttackBtn.enabled = false
         
-        NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: #selector(ViewController.enableOrcBtn), userInfo: nil, repeats: false)
+        NSTimer.scheduledTimerWithTimeInterval(1.5, target: self, selector: #selector(ViewController.enableOrcBtn), userInfo: nil, repeats: false)
         
         if knight.isAlive {
             currentAttackPwr = orc.randomattackPwr(10, max: 25)
             knight.hp -= currentAttackPwr
             gameTxtLbl.text = "Orc hits the Knight for \(currentAttackPwr) damage!"
-        }else{
+        } else {
             winnersTxtLbl.text = " The Orc Wins!!!!"
             winnersTxtLbl.hidden = false
-             NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: #selector(ViewController.gameOverView), userInfo: nil, repeats: false)
-            
+             NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: #selector(ViewController.gameOverView), userInfo: nil, repeats: false)
         }
     }
 
     @IBAction func onKnightBtnPressed(sender: AnyObject) {
+        knightAttackBtn.enabled = false
+        
+        NSTimer.scheduledTimerWithTimeInterval(1.5, target: self, selector: #selector(ViewController.enableKnightBtn), userInfo: nil, repeats: false)
+        
+        if orc.isAlive{
+            currentAttackPwr = knight.randomattackPwr(10, max: 25)
+            orc.hp -= currentAttackPwr
+            gameTxtLbl.text = "Knight hits the Orc for \(currentAttackPwr) damage!"
+        } else {
+            winnersTxtLbl.text = " The Knight Wins!!!!"
+            winnersTxtLbl.hidden = false
+            NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: #selector(ViewController.gameOverView), userInfo: nil, repeats: false)
+        }
+        
     }
     
 
