@@ -11,18 +11,21 @@ import Foundation
 
 class Player {
 
-    private var _hp: Int = 0
+    var hp: Int = 0
 //    private var _attackPwr: Int = 0
     private var _name: String = ""
     private var min = 10
     private var max = 20
     
-    var hp: Int {
-        get{
-            return _hp
-        }
-    
-    }
+//    var hp: Int {
+//        get{
+//            return _hp
+//        }
+//        set(arg) {
+//            self._hp -= arg
+//        }
+//    
+//    }
     
 //    var attackPwr: Int {
 //        get {
@@ -31,7 +34,7 @@ class Player {
 //    }
 
     init ( startingHp: Int, name: String){
-        self._hp = startingHp
+        self.hp = startingHp
 //        self._attackPwr = startingAttckPwr
         self._name = name
     }
@@ -46,7 +49,8 @@ class Player {
         }
     }
     
-    func attack(min: Int, max:Int) -> Int {
+    func randomattackPwr(min: Int, max:Int) -> Int {
             return min + Int(arc4random_uniform(UInt32(max - min + 1)))
-        }
+    }
+    
 }

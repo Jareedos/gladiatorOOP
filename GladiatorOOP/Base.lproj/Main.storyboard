@@ -85,8 +85,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Orc Wins!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMZ-EB-eqZ">
-                                <rect key="frame" x="209" y="229" width="182.5" height="61"/>
-                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="18"/>
+                                <rect key="frame" x="189" y="222.5" width="223" height="74.5"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="22"/>
                                 <color key="textColor" red="1" green="0.1021214471" blue="0.1129112177" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -129,18 +129,18 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="gameTxtLbl" destination="w6V-gO-eun" id="4nE-bC-S3z"/>
+                        <outlet property="gameTxtLbl" destination="Zsj-Jz-p7V" id="fE6-WF-64D"/>
                         <outlet property="knightAttackBtn" destination="KiT-pR-ElY" id="N4o-Zd-yye"/>
                         <outlet property="knightImg" destination="MlK-IW-285" id="n65-XU-aCd"/>
                         <outlet property="orcAttackBtn" destination="Q8W-jX-FkV" id="Zua-1d-jw9"/>
                         <outlet property="orcImg" destination="KQv-tl-sT8" id="Zgt-pW-dal"/>
-                        <outlet property="playAgainBtn" destination="fMc-en-BTy" id="axz-ot-TUd"/>
+                        <outlet property="playAgainBtn" destination="fMc-en-BTy" id="rTX-sa-XpC"/>
                         <outlet property="winnersTxtLbl" destination="FMZ-EB-eqZ" id="tQR-Wn-JB2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-255" y="89"/>
+            <point key="canvasLocation" x="-306" y="4"/>
         </scene>
     </scenes>
     <resources>
